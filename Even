@@ -1,0 +1,23 @@
+
+public class EvenNumbers {
+
+    // Main method where the program execution begins
+    public static void main(String[] args) {
+
+        // Set the upper limit for finding even numbers
+        int limit = 20;
+
+        // Print a message indicating the purpose of the program
+        System.out.println("Even numbers up to " + limit + ":");
+
+        // Loop through numbers from 1 up to the specified limit
+        for (int i = 1; i <= limit; i++) {
+            // Check if the current number is even
+            // An even number is perfectly divisible by 2 (remainder is 0)
+            if (i % 2 == 0) {
+                // If the number is even, print it to the console
+                System.out.println(i);
+            }
+        }
+    }
+}
